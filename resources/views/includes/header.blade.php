@@ -17,11 +17,8 @@
   <div class="collapse navbar-collapse" id="ftco-nav">
     <ul class="navbar-nav ml-auto">
         <li class="nav-item @if(\Request::is('/')) active @endif"><a href="/" class="nav-link">Beranda</a></li>
-        <li class="nav-item"><a href="about.html" class="nav-link">Tentang</a></li>
-        <li class="nav-item"><a href="services.html" class="nav-link">Layanan</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">Jadwal Ruangan</a></li>
         <li class="nav-item @if(\Request::is('rooms')) active @endif"><a href="{{ route('rooms') }}" class="nav-link">Daftar Ruangan</a></li>
-      <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-      <li class="nav-item"><a href="contact.html" class="nav-link">Kontak</a></li>
     </ul>
   </div>
 </div>
